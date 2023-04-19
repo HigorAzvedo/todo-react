@@ -1,0 +1,112 @@
+.container{
+    margin: auto;
+    padding: 10px;
+    max-width: 600px;
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+
+.done{
+    text-decoration:line-through;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+
+
+.card{
+    margin: auto;
+    width: 90% ;
+    box-shadow: 0 2px 7px 1px rgba(0,0,0, 0.2);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addButton{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border: none;
+    background-color: skyblue;
+    color: white;
+    border-radius: 25px;
+}
+
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.134);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    display: none;
+}
+
+.cardModal{
+    max-width: 300px;
+    padding: 20px;
+    background-color: rgba(135, 207, 235, 0.656);
+    border-radius: 10px;
+}
+
+img{
+    width: 30px;
+}
+
+.btn-form{
+    margin: 5px;
+    padding: 6px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition-property:padding;
+    transition-duration: 500ms;
+    transition-delay: 100ms;
+    transition-timing-function: ease;
+}
+
+.btn-form:hover{
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: bold;
+}
+
+.input{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
